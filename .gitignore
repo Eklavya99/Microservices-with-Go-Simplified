@@ -1,0 +1,19 @@
+# Binaries
+*.exe
+frontEndApp
+authApp
+brokerApp
+loggerServiceApp
+mailerApp
+listenerApp
+
+# Database & Caddy Data (THE "GARBAGE" FILES)
+Project/db-data/
+Project/caddy_data/
+Project/caddy_config/
+
+# OS Junk
+.DS_Store
+
+# Go specific
+vendor/
